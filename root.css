@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+:root {
+  --solidLine-color: #adadad;
+  --font-color: #000000;
+  --orange-color: #f48e28;
+  --white-color: #ffffff;
+}
+a {
+  color: var(--font-color);
+  text-decoration: none;
+  padding: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.half-width {
+  width: 45%;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin: 20px 0px;
+  color: var(--white-color);
+  background-image: linear-gradient(180deg, #efab68, #f48e28);
+}
+.add-to-cart-button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 28px;
+  margin: 20px 0px;
+  color: var(--white-color);
+  background-color: #f48e28;
+}
+
+.solid-line {
+  border: 1px solid var(--solidLine-color);
+}
+.orange-color-text {
+  color: var(--orange-color);
+}

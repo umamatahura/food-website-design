@@ -1,0 +1,185 @@
+/* address section start here*/
+.time-addresss-number {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0px;
+}
+.address {
+  max-width: 30%;
+  padding: 20px 0px;
+}
+.address-middle-section {
+  border-left: 2px solid var(--solidLine-color);
+  border-right: 2px solid var(--solidLine-color);
+  padding: 0px 80px;
+}
+.address-icon {
+  background-color: var(--orange-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.address-icon i {
+  padding-top: 40%;
+}
+.address-icon,
+.address-title {
+  text-align: center;
+}
+.address-title h4 {
+  padding: 5px 0px;
+}
+.address-title small {
+  font-weight: 400;
+}
+/* address section end here*/
+/* popular product section start here*/
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title small{
+    color: var(--orange-color);
+}
+.section-title h2{
+    font-weight: bold;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item{
+width: 90%;
+margin: 5%;
+border-radius:25px;
+box-shadow: 0px 1px 4px #0000001A;
+}
+.item:hover{
+cursor: pointer;
+width: 95%;
+}
+
+.item-img img{
+width: 100%;
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+}
+.item-title h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.item-title-review{
+    
+    display: flex;
+    padding: 15px 16px;
+    justify-content: space-between;
+}
+.item-review i{
+color: var(--orange-color);
+}
+.item-button-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 16px 20px 16px;
+}
+.see-more-items{
+    display: flex;
+    justify-content: center;
+}
+.more-button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.more-button-image img{
+    width: 30px;
+}
+/* popular product section end here*/
+/* favorite food  section start here*/
+.favorite-food-container{
+    margin: 60px auto;
+}
+.favorite-food-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.favorite-food-image img{
+    width: 30%;
+}
+.favorite-food-desc h4{
+    text-align: center;
+    padding-top: 15px;
+}
+.favorite-food-desc p{
+    text-align: center;
+    padding: 30px;
+}
+/* favorite food  section end here */
+/* happy client section start here */
+.happy-client-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.happy-client-item{
+    width: 90%;
+    margin: 5%;
+    border-radius:25px;
+    box-shadow: 0px 1px 4px #0000001A;
+    }
+    .about-client{
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+    }
+    .client-comment{
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .happy-client-food-item{
+        width: 90%;
+        margin: 0 auto;
+    }
+.happy-client-food-item img{
+width: 90%;
+border-radius: 25px;
+}
+/* happy client section end here */
+
+/* subscrib section end here */
+.subscrib-container{
+    background-color: var(--font-color);
+    color: var(--white-color);
+    display: flex;
+    border-radius: 25px;
+    justify-content: space-around;
+}
+
+.subscrib-title{
+    padding-top: 40px;
+}
+.subscrib-title p{
+    padding: 20px 0px;
+    font-weight: 300;
+}
+.subscrib-button{
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+.subscrib-button-placeholder input{
+    border: none;
+}
+/* subscrib section end here */
+
+
+

@@ -1,0 +1,63 @@
+@media only screen and (min-width: 576px) and (max-width: 720px) {
+  /* address section start here*/
+  .address {
+    max-width: 25%;
+    padding: 15px 0px;
+  }
+  .address-middle-section {
+    padding: 0px 30px;
+  }
+  .address-icon {
+    background-color: var(--orange-color);
+    width: 30px;
+    height: 30px;
+  }
+  .address-title h4 {
+    font-weight: 400;
+    font-size: 8px;
+  }
+  .address-title small {
+    font-weight: 200;
+  }
+  /* address section end here*/
+  /* popular product section start here*/
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item-title h4 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .add-to-cart-button {
+    padding: 5px 15px;
+    margin: 10px 0px;
+  }
+  .more-button-image img {
+    width: 25px;
+  }
+  .item-price span {
+    font-size: 20px;
+  }
+  /* popular product section end here*/
+  /* favorite food  section start here*/
+  .favorite-food-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* favorite food  section end here */
+  /* happy client section start here */
+  .happy-client-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* happy client section end here */
+  /* subscrib section start here */
+  .subscrib-container{
+    flex-direction: column;
+  }
+  .subscrib-section-title{
+    margin: 0 auto;
+  }
+  .subscrib-cart-button{
+    display: none;
+  }
+  /* subscrib section end here */
+}

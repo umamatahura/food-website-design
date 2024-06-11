@@ -1,0 +1,53 @@
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  /* address section start here*/
+  .time-addresss-number {
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+  .address {
+    max-width: 100%;
+    padding: 20px 0px;
+  }
+  .address-middle-section {
+    border: none;
+  }
+  .address-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .address-title h4 {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .address-title small {
+    font-weight: 500;
+  }
+  /* address section end here*/
+  /* popular product section start here*/
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* popular product section end here*/
+  /* happy client section start here */
+  .happy-client-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* happy client section end here */
+  .subscrib-container {
+    flex-direction: column;
+  }
+  .subscrib-image {
+    width: 90%;
+    padding-left: 40px;
+  }
+  .subscrib-image img{
+    width: 100%;
+  }
+  .subscrib-section-title {
+    margin: 0 auto;
+  }
+  .subscrib-cart-button {
+    display: none;
+  }
+}

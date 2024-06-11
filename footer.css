@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    padding: 30px 10px;
+}
+footer small{
+    color: var(--solidLine-color);
+}
+.footer-title{
+    width: 30%;
+}
+.footer-title-desc {
+width: 80%;
+font-size: 14px;
+padding: 20px 0px;
+color: var(--solidLine-color);
+}
+.footer-social-icons i{
+width: 30px;
+height: 30px;
+text-align: center;
+padding-top: 8px;
+background-color:#F5DDC4;
+border-radius: 100%;
+}
+.footer-items{
+    width: 70%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}

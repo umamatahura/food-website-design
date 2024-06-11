@@ -1,0 +1,207 @@
+/* hero section start here */
+.heading-container {
+  background-image: url(./images/Abstract.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 180px;
+}
+nav {
+  margin: 14px 0px;
+}
+.nav-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-search-bar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px var(--solidLine-color);
+}
+.nav-search-bar i {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.nav-search-bar span {
+  color: var(--font-color);
+  font-size: 18px;
+  padding-top: 5px;
+  padding-right: 100px;
+}
+.nav-search-bar .solid-line {
+  height: 25px;
+  padding-top: 10px;
+}
+.nav-search-bar img {
+  width: 40px;
+  height: 40px;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+.bike-delivery {
+  margin-top: 40px;
+}
+.bike-delivery-btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 2px 1px 2px 12px;
+  border-radius: 30px;
+  background-color: #f5ddc4;
+}
+.bike-delivery-title {
+  padding-right: 40px;
+}
+.bike-delivery-img img {
+  width: 70%;
+  height: 70%;
+}
+.heading h1 {
+  max-width: 100%;
+  word-spacing: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 18px 0px;
+}
+.heading p {
+  word-spacing: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 0px;
+}
+
+.order-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.order-now button {
+  padding: 20px 40px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.play-button {
+  width: 15%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(255, 25, 0); */
+}
+.play-button img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-food-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+.menu img {
+  width: 75%;
+}
+/* hero section end here */
+
+@media only screen and (min-width: 576px) and (max-width: 720px) {
+  :root {
+    font-size: 60%;
+    width: 70%;
+    border: 1px solid red;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-search-bar span {
+    font-size: 14px;
+    padding-top: 3px;
+    padding-right: 2px;
+  }
+  .heading-container {
+    flex-direction: column;
+    width: 900px;
+    text-align: center;
+  }
+  .bike-delivery {
+    display: flex;
+    justify-content: center;
+  }
+  .heading h1 {
+    font-size: 40px;
+    padding: 18px 0px;
+  }
+  .heading p {
+    font-size: 12px;
+  }
+  .order-box {
+    width: 300px;
+    margin-left: 20%;
+  }
+  .order-now button {
+    padding: 14px 28px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 576px) {
+  :root {
+    font-size: 40%;
+    width: 50%;
+    border: 1px solid red;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-search-bar {
+    width: 140px;
+  }
+  .nav-search-bar span {
+    font-size: 10px;
+    padding-top: 2px;
+    padding-right: 1px;
+  }
+  .heading-container {
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+  }
+  .bike-delivery {
+    display: flex;
+    justify-content: center;
+  }
+  .heading-container {
+    padding-left: 20px;
+  }
+  .heading h1 {
+    font-size: 25px;
+  }
+  .heading p {
+    font-size: 9px;
+    word-spacing: 4px;
+    font-weight: 500;
+  }
+  .order-box {
+    width: 200px;
+  }
+  .order-now button{
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .header-food-menu{
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 15px;
+  }
+  /* 
+
+
+ */
+}
